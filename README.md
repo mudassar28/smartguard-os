@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛡️ SmartGuard_OS v2.0
 
-## Getting Started
+**Web3 Triage & Threat Intelligence Platform**
 
-First, run the development server:
+SmartGuard_OS is an automated smart contract auditing tool designed to provide rapid security triage, vulnerability detection, and remediation strategies for Web3 developers. Powered by advanced LLM analysis, it acts as a first line of defense against smart contract exploits.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Instant Security Triage:** Paste any Solidity smart contract and initiate a comprehensive scan in seconds.
+* **Executive Summaries:** High-level risk overviews designed for non-technical stakeholders and CTOs.
+* **Deep Vulnerability Analysis:** Granular breakdowns of detected issues, including severity, location, and impact.
+* **Red Team Attack Simulation:** Step-by-step hypothetical attack paths demonstrating how a threat actor might exploit the contract.
+* **Actionable Remediation:** Safe, patched code replacements provided directly within the dashboard.
+* **PDF Report Generation:** Export full audit reports with one click for documentation and sharing.
+* **Secure Architecture:** API keys and prompt logic are strictly isolated on the server-side via Next.js Server Actions to prevent exposure.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Frontend:** Next.js (App Router), React, Tailwind CSS
+* **Backend:** Next.js Server Actions (Node.js environment)
+* **AI Engine:** Google Gemini 2.5 Flash API
+* **UI/UX:** Custom dark-mode terminal aesthetic with SVG data visualization
 
-## Learn More
+## 🚀 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+Follow these steps to run SmartGuard_OS locally on your machine.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
+* [Node.js](https://nodejs.org/) (v18 or higher recommended)
+* [Git](https://git-scm.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Installation
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/mudassar28/smartguard-os.git](https://github.com/mudassar28/smartguard-os.git)
+   cd smartguard-os
