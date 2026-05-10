@@ -206,7 +206,7 @@ const TabBtn = ({
 // ─── Markdown renderer with proper code-block support ────────────────────────
 const MarkdownBlock = ({ content }: { content: string }) => {
   // Split into segments: either a fenced code block or regular lines
-  const segments: { type: "code"; lang: string; body: string } | { type: "lines"; body: string[] }[] = [];
+  const segments: ({ type: "code"; lang: string; body: string } | { type: "lines"; body: string[] }) [] = [];
   const lines = content.split("\n");
   let i = 0;
   while (i < lines.length) {
